@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Event</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+  <h1>Oferta Especial 2025</h1>
+  <p>¡Una de muchas ofertas futuras en VIAJARTE!</p>
+</header>
+
+<section class="banner">
+  <picture>
+
+    <source media="(min-width: 768px)" srcset="Banner%20Para%20Agencia%20de%20Viajes%20Con%20Foto%20Circular%20Amarillo%20Blanco%20y%20Celeste.jpg">
+
+    <source media="(max-width: 767px)" srcset="_Flyer%20agencia%20de%20viaje%20moderno%20fotogr%C3%A1fico%20blanco%20naranja.gif">
+
+    <img src="Banner Para Agencia de Viajes Con Foto Circular Amarillo Blanco y Celeste.jpg">
+  </picture>
+</section>
+
+
+<section class="banners">
+  <picture>
+    <source media="(min-width: 768px)" srcset="https://picsum.photos/1200/400?random=3">
+    <source media="(max-width: 767px)" srcset="https://picsum.photos/600/300?random=3">
+    <img src="_Flyer agencia de viaje moderno fotográfico blanco naranja.gif" alt="banner telefono">
+  </picture>
+</section>
+
+<section class="countdown">
+  <h2>Cuenta regresiva para el evento</h2>
+  <div id="contador">
+    <span id="dias"></span> Días
+    <span id="horas"></span> Horas
+    <span id="minutos"></span> Minutos
+    <span id="segundos"></span> Segundos
+  </div>
+</section>
+
+<section class="faq">
+  <h2>Preguntas Frecuentes</h2>
+  <div>
+    <h3>¿En donde puedo pagar esa oferta?</h3>
+    <p>La oferta se puede pagar en nuestra pagina hhtps://viajarte.com .</p>
+  </div>
+  <div>
+    <h3>¿Se puede pagar con efectivo?</h3>
+    <p>Claro, se puede pagar con efectivo o tarjeta </p>
+  </div>
+  <div>
+    <h3>¿Puedo registrarme en la empresa fisicamente?</h3>
+    <p>Si, incluso si vas a pagar fisicamente te ofreceremos un vaso de cafe y una medialuna</p>
+  </div>
+</section>
+
+<section class="formulario">
+  <h2>sigue la oferta para más información</h2>
+  <input type="email" placeholder="Tu correo electrónico" id="email">
+  <button onclick="enviar()">Enviar</button>
+</section>
+
+<script src="java.js"></script>
+</body>
+</html>

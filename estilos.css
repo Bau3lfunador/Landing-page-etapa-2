@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #0a74da;
+  color: white;
+}
+
+.banner, .banners {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+.banner picture img,
+.banners picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.countdown {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.countdown span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.faq {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.faq h3 {
+  cursor: pointer;
+  background: #0a74da;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+}
+.faq p {
+  display: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.formulario {
+  text-align: center;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.formulario input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.formulario button {
+  padding: 10px 15px;
+  background: #0a74da;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.formulario button:hover {
+  background: #0959a8;
+}
